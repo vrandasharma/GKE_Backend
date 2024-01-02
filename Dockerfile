@@ -5,7 +5,7 @@ COPY pom.xml /home/app/
 WORKDIR /home/app
 COPY src /home/app/src
 RUN mvn clean package
-ENTRYPOINT ["java","-jar","/home/app/target/TestProject-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/home/app/target/Java_Springboot_Api_Server-0.0.1-SNAPSHOT.jar"]
 #
 ## PACKAGE STAGE
 #FROM openjdk:17
